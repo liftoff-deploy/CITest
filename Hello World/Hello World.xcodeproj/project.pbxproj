@@ -258,7 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Liftoff LLC (55X6S7LVCA)";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liftoff LLC (55X6S7LVCA)";
 				DEVELOPMENT_TEAM = 8MYYG4Q456;
 				INFOPLIST_FILE = "Hello World/Info.plist";
@@ -275,7 +275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: LiftOff LLC (LHK5K3Q5L9)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LiftOff LLC (LHK5K3Q5L9)";
 				DEVELOPMENT_TEAM = 8MYYG4Q456;
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
