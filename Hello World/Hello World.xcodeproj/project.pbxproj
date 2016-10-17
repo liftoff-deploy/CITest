@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CADCB341DB493850051CCD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CADCB331DB493850051CCD3 /* Main.storyboard */; };
 		C78A39531DAE1AC1009E1F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A39521DAE1AC1009E1F4B /* AppDelegate.swift */; };
 		C78A39551DAE1AC1009E1F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A39541DAE1AC1009E1F4B /* ViewController.swift */; };
-		C78A39581DAE1AC1009E1F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78A39561DAE1AC1009E1F4B /* Main.storyboard */; };
 		C78A395A1DAE1AC1009E1F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78A39591DAE1AC1009E1F4B /* Assets.xcassets */; };
-		C78A395D1DAE1AC1009E1F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78A395B1DAE1AC1009E1F4B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CADCB331DB493850051CCD3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		C78A394F1DAE1AC1009E1F4B /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78A39521DAE1AC1009E1F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C78A39541DAE1AC1009E1F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C78A39571DAE1AC1009E1F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C78A39591DAE1AC1009E1F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C78A395C1DAE1AC1009E1F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78A395E1DAE1AC1009E1F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,11 +52,10 @@
 		C78A39511DAE1AC1009E1F4B /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				3CADCB331DB493850051CCD3 /* Main.storyboard */,
 				C78A39521DAE1AC1009E1F4B /* AppDelegate.swift */,
 				C78A39541DAE1AC1009E1F4B /* ViewController.swift */,
-				C78A39561DAE1AC1009E1F4B /* Main.storyboard */,
 				C78A39591DAE1AC1009E1F4B /* Assets.xcassets */,
-				C78A395B1DAE1AC1009E1F4B /* LaunchScreen.storyboard */,
 				C78A395E1DAE1AC1009E1F4B /* Info.plist */,
 			);
 			path = "Hello World";
@@ -123,9 +120,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78A395D1DAE1AC1009E1F4B /* LaunchScreen.storyboard in Resources */,
 				C78A395A1DAE1AC1009E1F4B /* Assets.xcassets in Resources */,
-				C78A39581DAE1AC1009E1F4B /* Main.storyboard in Resources */,
+				3CADCB341DB493850051CCD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,25 +138,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C78A39561DAE1AC1009E1F4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C78A39571DAE1AC1009E1F4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C78A395B1DAE1AC1009E1F4B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C78A395C1DAE1AC1009E1F4B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C78A395F1DAE1AC1009E1F4B /* Debug */ = {
@@ -262,7 +239,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liftoff LLC (55X6S7LVCA)";
 				DEVELOPMENT_TEAM = 8MYYG4Q456;
 				INFOPLIST_FILE = "Hello World/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liftoffllc.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,7 +256,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: LiftOff LLC (LHK5K3Q5L9)";
 				DEVELOPMENT_TEAM = 8MYYG4Q456;
 				INFOPLIST_FILE = "Hello World/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liftoffllc.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
